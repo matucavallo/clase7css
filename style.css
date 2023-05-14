@@ -1,0 +1,165 @@
+.titulos{ text-align: center;
+
+}
+.body{ background-color: white;
+
+
+}
+.header{ background-color: beige;
+
+
+}
+.lista { list-style: none;
+display: flex;
+gap: 5px;
+justify-content: center;
+padding: 50px;
+}
+.lista li{
+    gap: 25px;
+}
+.contenedor{ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+
+.cajita1{
+    color: white;
+    background-color: gray;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+.cajita2{
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+.cajita3{
+    color: white;
+    background-color: brown;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+.cajita4{
+    color: white;
+    background-color: burlywood;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+
+.cajita5{
+    color: white;
+    background-color: violet;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+.cajita6{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 25px;
+}
+@media (max-width: 768px) {
+    .cajita1{
+        color: white;
+        background-color: red;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita2{
+        color: white;
+        background-color: violet;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita3{
+        color: white;
+        background-color: goldenrod;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita4{
+        color: white;
+        background-color: royalblue;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    
+    .cajita5{
+        color: white;
+        background-color: rgb(105, 5, 105);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita6{
+        color: white;
+        background-color: rgb(17, 202, 235);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 320px) {
+    .cajita1{
+        color: white;
+        background-color: red;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita2{
+        color: white;
+        background-color:pink;
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita3{
+        color: white;
+        background-color: rgb(165, 94, 12);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita4{
+        color: white;
+        background-color: rgb(255, 0, 212);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    
+    .cajita5{
+        color: white;
+        background-color: rgb(175, 255, 179);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .cajita6{
+        color: white;
+        background-color: rgb(85, 149, 221);
+        border-radius: 25px;
+        border: solid black 1px;
+        padding: 25px;
+    }
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}
